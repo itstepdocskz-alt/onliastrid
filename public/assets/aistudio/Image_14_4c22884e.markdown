@@ -1,0 +1,210 @@
+---
+name: Nocturne Atelier
+colors:
+  surface: '#121414'
+  surface-dim: '#121414'
+  surface-bright: '#38393a'
+  surface-container-lowest: '#0c0f0f'
+  surface-container-low: '#1a1c1c'
+  surface-container: '#1e2020'
+  surface-container-high: '#282a2b'
+  surface-container-highest: '#333535'
+  on-surface: '#e2e2e2'
+  on-surface-variant: '#cfc2d5'
+  inverse-surface: '#e2e2e2'
+  inverse-on-surface: '#2f3131'
+  outline: '#988d9e'
+  outline-variant: '#4d4353'
+  surface-tint: '#dfb7ff'
+  primary: '#dfb7ff'
+  on-primary: '#4b007e'
+  primary-container: '#6a0dad'
+  on-primary-container: '#d4a1ff'
+  inverse-primary: '#8333c6'
+  secondary: '#ffb4a8'
+  on-secondary: '#690000'
+  secondary-container: '#c90201'
+  on-secondary-container: '#ffd7d1'
+  tertiary: '#d8bbf5'
+  on-tertiary: '#3c2655'
+  tertiary-container: '#543d6e'
+  on-tertiary-container: '#c7abe4'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#f1daff'
+  primary-fixed-dim: '#dfb7ff'
+  on-primary-fixed: '#2d004f'
+  on-primary-fixed-variant: '#690bac'
+  secondary-fixed: '#ffdad4'
+  secondary-fixed-dim: '#ffb4a8'
+  on-secondary-fixed: '#410000'
+  on-secondary-fixed-variant: '#930000'
+  tertiary-fixed: '#efdbff'
+  tertiary-fixed-dim: '#d8bbf5'
+  on-tertiary-fixed: '#260f3f'
+  on-tertiary-fixed-variant: '#533c6d'
+  background: '#121414'
+  on-background: '#e2e2e2'
+  surface-variant: '#333535'
+typography:
+  display-lg:
+    fontFamily: Playfair Display
+    fontSize: 48px
+    fontWeight: '600'
+    lineHeight: 56px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 24px
+    fontWeight: '500'
+    lineHeight: 32px
+    letterSpacing: 0em
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 20px
+    fontWeight: '500'
+    lineHeight: 28px
+    letterSpacing: 0em
+  body-lg:
+    fontFamily: Literata
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: 0.01em
+  body-md:
+    fontFamily: Literata
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0.01em
+  body-sm:
+    fontFamily: Literata
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0.02em
+  label-lg:
+    fontFamily: Literata
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.08em
+  label-md:
+    fontFamily: Literata
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.1em
+  label-sm:
+    fontFamily: Literata
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.12em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system establishes a cinematic, high-end macabre aesthetic tailored for curated horror props, lifelike bespoke mannequins, and nocturnal concierge delivery. The experience rejects seasonal kitsch and cartoon tropes in favor of an occult, gallery-grade atmosphere—blending minimalist negative space with high-tension theatrical luxury.
+
+The emotional core evokes quiet dread, exquisite craftsmanship, and dark romance. Visual compositions mimic a candlelit high-fashion showroom: generous expanses of ink-black abyss, razor-sharp editorial typography, and disciplined, deliberate crimson accents that command immediate focus. Interfaces feel tactile, brooding, and precisely engineered.
+
+## Colors
+
+The palette operates in strict darkness, utilizing deeply saturated undertones to create depth without relying on generic gray scales:
+
+- **Abyss Background (`#0B0014`)**: The foundational void. Absorbs light, heightens contrast, and grounds all screens.
+- **Surface Elevation Layers**:
+  - `surface-dim` (`#11041F`): Secondary canvas backing and nested containers.
+  - `surface-container` (`#160726`): Base card backgrounds, elevated sheets, and drawer panels.
+  - `surface-elevated` (`#220B3B`): Active interaction states, hover planes, and floating overlays.
+- **Royal Occult Purple (`#6A0DAD`)**: Primary brand identity, featured iconography, focus highlights, and verified authentic insignia.
+- **Haunting Crimson (`#C80000`)**: High-stakes action accents, express checkout CTAs, rush delivery badges, and error states. Used sparingly to preserve urgency.
+- **Phantom Bone White (`#F2F2F2`)**: High-contrast, pristine neutral for display titles, crisp structural iconography, and primary body content.
+- **Ghost Mauve (`#A79BB7`)**: Muted secondary text, subtle perimeter borders, placeholder fills, and divider lines.
+
+## Typography
+
+The typographical pairing balances dramatic editorial grandeur with classical bookish legibility.
+
+- **Playfair Display** commands headlines, product monikers, and narrative interludes. Its exaggerated contrast, sharp terminals, and sweeping serifs reflect antique grimoires and haute couture publishing.
+- **Literata** grounds all body copy, item specifications, and UI elements. As an exquisitely proportioned literary serif, it provides crystalline legibility even at micro sizes on deep-tinted backgrounds while avoiding the sterile neutrality of sans-serif fonts.
+
+All uppercase labels utilize wide tracking (`0.08em` to `0.12em`) to mirror luxury artifact identification plaques.
+
+## Layout & Spacing
+
+The layout is built on an expansive 4-column fluid mobile grid scaling to an 8-column layout for larger viewports, anchored by a 4px/8px structural cadence.
+
+- **Mobile Canvas**: Screen edges maintain a default margin of `1.25rem` (`20px`) with `1rem` (`16px`) gutters between multi-column cards.
+- **Vertical Air**: Rather than dense data grids, the system embraces intentional negative space (`space-xl` and above) between curated showcases, allowing individual mannequins and artifacts to stand isolated like museum exhibits.
+- **Edge Restraint**: Safe areas for mobile notches and bottom home-indicators inherit full `#0B0014` bleeds to eliminate harsh interface seams.
+
+## Elevation & Depth
+
+Depth is established through dark atmospheric stratification, subtle luminous edges, and selective vapor glows rather than standard black dropshadows:
+
+1. **Layer 0 (Base)**: `#0B0014` flat void.
+2. **Layer 1 (Card/Container)**: `#160726` surface bordered by a crisp `1px` stroke of `#A79BB7` at 15% opacity.
+3. **Layer 2 (Floating Modals & Sheets)**: `#220B3B` backdrop blur surfaces (`backdrop-filter: blur(20px)` at 85% opacity) accompanied by an ambient purple aura (`0 12px 32px -4px rgba(106, 13, 173, 0.25)`).
+4. **Layer 3 (Urgent / Active Elements)**: Blood Crimson elements cast a short, intense back-light glow (`0 0 16px rgba(200, 0, 0, 0.40)`), creating the perception of a backlit ember in an unlit room.
+
+## Shapes
+
+The design uses a restrained, sharp-soft geometry (`level 1`). Base containers, product tiles, and text inputs utilize `0.25rem` (`4px`) radii, providing a tailored, chiseled silhouette reminiscent of obsidian tablets and architectural cabinetry.
+
+Interactive pills, tags, and floating action toggles carry a full soft pill curve strictly when signaling ephemeral state, contrasting the otherwise rigid, dignified geometry of the catalog layout.
+
+## Components
+
+### Buttons
+- **Primary CTA (Rush Dispatch / Purchase)**: Haunting Crimson (`#C80000`) fill, bone white (`#F2F2F2`) label in `label-lg`, `0.25rem` corner radius. Subtle crimson drop illumination on active press.
+- **Secondary (Customizer / View Relic)**: `#160726` background, `1px` border of `#6A0DAD`, phantom bone typography.
+- **Tertiary / Ghost**: Transparent base with Ghost Mauve (`#A79BB7`) text and an underline that tightens on interaction.
+
+### Mannequin Customizer Sliders & Steppers
+- Low-profile horizontal tracks filled with `#220B3B`, traversed by bone white circular handles with a faint crimson center pip. Value readouts display in tracked `label-md`.
+
+### Cards & Specimen Displays
+- Built upon `#160726` with a `1px` hairline border of `#A79BB7` at 12% opacity.
+- Images occupy seamless edge-to-edge frame tops with a bottom gradient fade melting directly into the card body.
+
+### Chips & Attribute Selectors
+- Compact pills with `0.25rem` rounded corners.
+- Inactive: `#11041F` background with `#A79BB7` text.
+- Active: Royal Occult Purple (`#6A0DAD`) border with a soft inner wash of purple at 20% opacity and `#F2F2F2` text.
+
+### Text Inputs & Search
+- Recessed `#0B0014` field set within `#160726` containers. Ghost Mauve placeholder text. Focusing shifts the border from `#A79BB7` (20% opacity) to an ethereal `#6A0DAD` glow.
+
+### Delivery Countdown & Dispatch Indicators
+- Real-time night delivery radar badges styled as crisp crimson indicators with micro ping animations to underscore urgency and rapid fulfillment.

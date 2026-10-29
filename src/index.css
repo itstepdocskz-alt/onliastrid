@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-body: 'Literata', Georgia, serif;
+  }
+
+  body {
+    font-family: 'Literata', Georgia, serif;
+    background-color: #0B0014;
+    color: #F2F2F2;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom glow and elevation utilities adhering strictly to Nocturne Atelier specs */
+.glow-crimson {
+  box-shadow: 0 0 16px rgba(200, 0, 0, 0.45);
+}
+
+.glow-crimson-intense {
+  box-shadow: 0 0 24px rgba(200, 0, 0, 0.65), 0 0 8px rgba(200, 0, 0, 0.35);
+}
+
+.aura-purple {
+  box-shadow: 0 12px 32px -4px rgba(106, 13, 173, 0.25);
+}
+
+.glow-purple {
+  box-shadow: 0 0 16px rgba(106, 13, 173, 0.4);
+}
+
+.border-subtle {
+  border-color: rgba(167, 155, 183, 0.15);
+}
+
+.border-subtle-12 {
+  border-color: rgba(167, 155, 183, 0.12);
+}
+
+/* Radar pulse animation */
+@keyframes radar-sweep {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-radar {
+  animation: radar-sweep 4s linear infinite;
+}
+
+/* Subtle candle flickers */
+@keyframes candle-flicker {
+  0%, 100% { opacity: 0.95; filter: brightness(1); }
+  25% { opacity: 0.88; filter: brightness(0.96); }
+  50% { opacity: 0.98; filter: brightness(1.04); }
+  75% { opacity: 0.91; filter: brightness(0.98); }
+}
+
+.animate-candle {
+  animation: candle-flicker 5s ease-in-out infinite;
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0014;
+}
+::-webkit-scrollbar-thumb {
+  background: #220B3B;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6A0DAD;
+}

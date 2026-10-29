@@ -1,0 +1,6 @@
+{
+  "name": "Nocturne Atelier",
+  "description": "Curated horror props, bespoke lifelike mannequins, and nocturnal concierge delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
